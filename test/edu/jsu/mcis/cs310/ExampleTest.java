@@ -49,4 +49,10 @@ public class ExampleTest {
         assertEquals(expectedReverse3, actual);
     }
     
+    @Test
+    public void testReverseRainbow() {
+        String actual = main.reverse("Rainbow");
+        assertEquals("wobniaR", actual);
+    }
+    
 }
